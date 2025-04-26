@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>botões</title>
+  <style>
+    /* Estilizando a lista para ficar lado a lado */
+    .menu {
+      list-style: none; /* Remove os marcadores da lista */
+      padding: 0;
+      display: flex; /* Coloca os botões lado a lado */
+      gap: 10px; /* Espaçamento entre os botões */
+    }
+
+    .menu li .botao {
+      padding: 15px 30px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .menu li:hover .botao {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Criando os botões dentro de uma lista -->
+  <ul class="menu">
+    <li><button class="botao"><<</button></li>
+    <li>
+         <a href="https://andrevazfs.github.io/macaco-prego-dourado/" target="_blank">
+            <button class="botao">1</button></a>
+        </li>
+    <li><a href="https://andrevazfs.github.io/carta/" target="_blank">
+        <button class="botao">2</button></a>
+    </li>
+    <li><button class="botao">3</button></li>
+    <li><button class="botao">>></button></li>
+  </ul>
+
+</body>
+</html>
